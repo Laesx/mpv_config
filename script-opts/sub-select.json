@@ -6,21 +6,16 @@
     },
     {
         "alang": ["jpn", "ja"],
-        "slang": "esp?",
-		"whitelist": [ "spanish" ],
-        "blacklist": [ "latin_america" ]
+        "slang": ["esp?", "eng?"],
+        "blacklist": [ "latin", "forced", "american?" ]
+    },
+	{
+        "alang": ["jpn", "ja"],
+        "slang": "esp?"
     },
     {
         "alang": "*",
-        "slang": "eng?",
-        "condition": "sub.external and sub.codec == 'ass'" 
-    },
-    {
-        "inherit": "^",
-        "condition": "sub.external and sub.codec ~= 'ass'" 
-    },
-    {
-        "inherit": "^",
+        "slang": ["esp?", "eng?"],
         "condition": "sub.codec == 'ass'" 
     },
     {
