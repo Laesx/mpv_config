@@ -6,7 +6,7 @@
     },
     {
         "alang": ["jpn", "ja"],
-        "slang": ["esp?", "eng?"],
+        "slang": ["esp?", "eng?, es-419?"],
         "blacklist": [ "latin", "forced", "american?" ]
     },
 	{
